@@ -41,7 +41,7 @@ export function GLTFViewer({ modelPath, heading, tagline }: GLTFViewerProps) {
       <Canvas
         // To zoom out, I've increased the camera's Z position from 5 to 10.
         // A higher Z value moves the camera further away from the object.
-        camera={{ position: [0, 0, 10], fov: 50 }}
+        camera={{ position: [0, 0, 20], fov: 50 }}
         style={{ background: "#00008B" }} // Dark blue background
         shadows
       >
